@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Rock Paper Scissors - Game</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock | Paper | Scissors</h1>
+    <div class="scores">
+        <p class="player">Player</p>
+        <span class="player-points"></span>
+        <span class="computer-points"></span>
+        <p class="computer">Computer</p>
+    </div>
+    <section class="options">
+        <button data-option="ROCK"><img src="./images/rock-image.png"></button>
+        <button data-option="PAPER"><img src="./images/paper-image.png"></button>
+        <button data-option="SCISSORS"><img src="./images/scissors-image.png"></button>
+    </section>
+    <div class="choices">
+        <p class="player">
+            Player choice: <span class="player-choice">ROCK</span>
+        </p>
+        <p class="computer">
+            Computer choice: <span class="computer-choice">ROCK</span>
+        </p>
+    </div>
+    <p class="result-text"></p>
+    <button class="reset-game">Reset game</button>
+    <h3>Source code on <a href="https://github.com/budzynskikarol/rock-paper-scissors/" target=_blank>Github <i class='bx bxl-github'></i></a></h3>
+    <script src="./app.js"></script>
+</body>
+</html>
