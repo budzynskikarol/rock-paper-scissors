@@ -1,5 +1,5 @@
-# Rosk Paper Scissors Game
+# Rock Paper Scissors Game
 
 Project created in HTML, CSS, JavaScript
 
-![Preview](https://github.com/budzynskikarol/random-color-generator/blob/main/random-color-generator.png?raw=true)
+![Preview](https://github.com/budzynskikarol/rock-paper-scissors/blob/main/images/rockpaperscissors.PNG)
